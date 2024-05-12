@@ -18,9 +18,10 @@ import {
   git,
   figma,
   docker,
-  carrent,
-  jobit,
-  tripguide,
+  diagnosphere,
+  remitout,
+  motionvox,
+  spotify,
   threejs,
 } from "../assets";
 
@@ -197,67 +198,92 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Motion Vox",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Empowering the deaf and mute with Python, TensorFlow, and cutting-edge computer vision. Seamlessly translating sign language into spoken words, fostering inclusive communication and societal unity",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Tkinter",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "TensorFlow",
         color: "pink-text-gradient",
       },
+      {
+        name: "OpenCV",
+        color: "white-text=gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: motionvox,
+    source_code_link: "https://github.com/Arnav2722/Motion-Vox",
   },
   {
-    name: "Job IT",
+    name: "DiagnoSphere",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Dedicated to healthcare excellence, we tackle diabetes, cancer, heart diseases, and more. Early intervention saves lives, while proactive monitoring ensures lasting wellness.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "HTML",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: diagnosphere,
+    source_code_link: "https://github.com/Arnav2722/Diagnosphere",
   },
   {
-    name: "Trip Guide",
+    name: "RemitOut Clone",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Explore RemitOut's website clone project, replicating a top remittance company's online presence. Enjoy seamless money transfers in 40+ currencies and curated travel recommendations.",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "JavaScript",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: remitout,
+    source_code_link: "https://github.com/Arnav2722/Remitout-Website-Clone",
+  },
+  {
+    name: "Spotify Clone",
+    description:
+      "Experience the essence of Spotify with my HTML, CSS, and JS clone. Enjoy seamless music streaming and personalized playlists in this project.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: spotify,
+    source_code_link: "https://github.com/Arnav2722/",
   },
 ];
 

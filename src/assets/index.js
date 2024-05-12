@@ -26,12 +26,16 @@ import upedd from "./company/upedd.png";
 import ekomart from "./company/ekomart.png";
 // import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+// import carrent from "./carrent.png";
+import remitout from "./remitout.png";
+import motionvox from "./motionvox.png";
+import diagnosphere from "./diagnosphere.png";
+import resume from "./Resume.pdf";
+import spotify from "./spotify.png";
 
 export {
   logo,
+  spotify,
   backend,
   creator,
   mobile,
@@ -55,7 +59,7 @@ export {
   codersbake,
   ekomart,
   upedd,
-  carrent,
-  jobit,
-  tripguide,
+  motionvox,
+  remitout,
+  diagnosphere,
 };
