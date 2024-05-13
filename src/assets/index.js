@@ -30,7 +30,7 @@ import ekomart from "./company/ekomart.png";
 import remitout from "./remitout.png";
 import motionvox from "./motionvox.png";
 import diagnosphere from "./diagnosphere.png";
-import resume from "./Resume.pdf";
+// import resume from "./Resume.pdf";
 import spotify from "./spotify.png";
 
 export {
